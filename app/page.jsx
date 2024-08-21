@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <div className=" min-h-screen flex gap-5 p-5 pt-20 items-center w-full flex-col sm:pt-28">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-          Xery Youtube Downloader
+          ABROTECH YOUTUBE DOWNLOADER
         </h1>
 
         <Form fetchData={fetchData} />
