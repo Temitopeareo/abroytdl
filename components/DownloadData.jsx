@@ -29,14 +29,14 @@ export default function DownloadData({ ytData }) {
                         scope="col"
                         className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
                       >
-                        Resolution
+                        QUALITY
                       </th>
 
                       <th
                         scope="col"
                         className="px-4 py-3.5 text-left text-sm font-normal text-gray-700"
                       >
-                        Action
+                        ACTION
                       </th>
                     </tr>
                   </thead>
@@ -50,10 +50,10 @@ export default function DownloadData({ ytData }) {
                           <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-700">
                             <a
                               href={video.url}
-                              className="bg-red-600 p-3 rounded-lg text-white hover:bg-red-600/80"
+                              className="bg-red-800 p-3 rounded-lg text-white hover:bg-red-800/100"
                               target="_blank"
                               download={ytData?.title}>
-                              Download
+                              DOWNLAOD BY ABRO
                             </a>
                           </td>
                         </tr>
