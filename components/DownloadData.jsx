@@ -14,7 +14,7 @@ export default function DownloadData({ ytData }) {
             alt="yt Thumbnail"
           />
 
-          <p className="scroll-m-20 break-words bg-white/75 mt-4 text-xl font-bold tracking-tight">
+          <p className="scroll-m-20 break-words bg-red/75 mt-4 text-xl font-bold tracking-tight">
             {ytData?.title}
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function DownloadData({ ytData }) {
                           <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-700">
                             <a
                               href={video.url}
-                              className="bg-green-600 p-3 rounded-lg text-white hover:bg-green-600/80"
+                              className="bg-red-600 p-3 rounded-lg text-white hover:bg-red-600/80"
                               target="_blank"
                               download={ytData?.title}>
                               Download
