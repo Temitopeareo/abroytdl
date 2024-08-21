@@ -6,7 +6,7 @@ import Footer from "@/components/Footer"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Xery Youtube Video Downloader',
+  title: 'Abro Youtube Video Downloader',
   description: 'A Web Application created using Nextjs that Downloads Youtube Videos Via Api',
 }
 
